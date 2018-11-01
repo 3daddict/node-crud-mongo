@@ -8,5 +8,11 @@ module.exports = {
         ];
         //return a view with data
         res.render('pages/events', { events: events });
+    },
+
+    showSingle: (req, res) => {
+        const event = { name: 'Basketball', slug: 'basketball', description: 'Throwing into a basket yo' };
+        res.render('pages/single', {event: event});
     }
+
 }

@@ -13,3 +13,5 @@ router.get('/', mainController.showHome);
 
 //event routes
 router.get('/events', eventController.showEvents);
+router.get('/events/:slug', eventController.showSingle);
+
