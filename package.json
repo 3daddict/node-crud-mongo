@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/3daddict/node-crud-mongo#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "mongoose": "^5.3.8"
   }
 }
